@@ -19,20 +19,23 @@ Modificaciones hechas:
 no deberia haber problema en utilizar una version inferior. 
 2. Agregar el archivo jquery.snow.min.1.0.js a la pagina donde se utilizara. 
 3. Aplicar el estilo entre las etiquetas <head></head>.  
-	`<style type="text/css">`  
-		`#flake {`  
-		`color: #FFFFFF;` 
-		`}`  
-	`</style>`  
+``` css	
+<style type="text/css">  
+		#flake {  
+		color: #FFFFFF; 
+		}  
+	</style>
+```
 4. Codigo para inicializar el script.  
-`<script>`  
-			`$(document).ready( function(){`  
-	       `$.fn.snow({`  
-		        	`minSize: 10,`  
-		        	`maxSize: 20, `  
-		        	`newOn: 200});`  
-		`});`  
-`</script>`  
-
+```javascript
+<script>  
+			$(document).ready( function(){  
+	       $.fn.snow({  
+		        	minSize: 10,  
+		        	maxSize: 20,   
+		        	newOn: 200});  
+		});  
+</script>  
+```
 
 
